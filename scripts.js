@@ -38,7 +38,7 @@ function convertValues() {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-BT", {
             style: "currency",
             currency: "BTC"
-        }).format(inputCurrencyValue / libraToday)
+        }).format(inputCurrencyValue / bitcoinToday)
     }
 
 
